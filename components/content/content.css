@@ -1,0 +1,50 @@
+.content {
+    background-color: #F9FAFC;
+    min-height: 500px;
+}
+
+/*context*/
+.button-section__button {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+/*block*/
+button {
+    width: 182px;
+    height: 48px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    color: white;
+    opacity: 0.9;
+}
+
+/*elements*/
+.primary-button {
+    background-color: #4263E8;
+}
+
+.secondary-button {
+    background-color: #7048E8;
+}
+
+.alternate-button {
+    background-color: transparent;
+    color: dimgray;
+}
+
+/*modifier*/
+.button-section-hover {
+    opacity: 1;
+    border-color: dimgray;
+    transition: 0.7s;
+}
+
+.button-section-disabled {
+    opacity: 0.5;
+    border-color: lightgray;
+    transition: 0.7s;
+}
